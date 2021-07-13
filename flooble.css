@@ -54,7 +54,7 @@ box-shadow: none;
     cursor: pointer;
 }
 #button1:hover, #button2:hover {
-    cursor: pointer;
+    cursor: pointer
     background-color: rgb(0, 255, 170);
 }
 .buttons, #button1, #button2 {

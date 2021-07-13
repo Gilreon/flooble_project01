@@ -1,0 +1,253 @@
+
+* {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+
+
+}
+
+body {
+background-color: rgb(27, 43, 51);
+}
+
+h1 {
+    max-height: 92px;
+    position: relative;
+    margin-top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    }
+
+    .flooble {
+        font-size: 65px;
+        color: white;
+
+    }
+.box {
+    width: 100%;
+    text-align: center;
+    padding-top: 200px ;
+}
+
+#search {
+display: fixed;    
+position: relative;
+width: 40%;
+border-radius: 15px;
+border: 1px #000 solid;
+padding: 15px 5px 5px 25px;
+margin-top: 35px;
+background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+background-repeat: no-repeat;
+background-position: left center;
+background-color: #fff;
+box-shadow: none;
+-webkit-appearance: none;
+
+}
+
+#search:hover {
+    cursor: pointer;
+}
+#button1:hover, #button2:hover {
+    cursor: pointer;
+    background-color: rgb(0, 255, 170);
+}
+.buttons, #button1, #button2 {
+    border: none;
+    color: rgb(27, 43, 51);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    overflow: hidden;
+    
+}
+
+#button1, #button2 {
+    margin-left:30px;
+
+}
+
+
+
+header {
+margin-top: 10px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+text-align: center;
+}
+
+.left-top {
+flex-grow: 1;
+padding-left: 15px;
+float: left;
+color: white;
+}
+
+.right-top, .left-top {
+    padding-top: 15px; 
+}
+
+.img-top {
+    padding-top: 10px;
+
+}
+
+.img-top2 {
+    padding-top: 12px;
+
+}
+
+.img-top, .img-top2 {
+    width: 32px;
+    }
+
+
+.right-top, .img-top, .img-top2 {
+    flex-grow: 1;
+    padding-right: 15px;
+    float: right;
+    color: white;
+
+}
+
+
+footer  {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: slategrey;
+    height: 45px;
+}
+
+
+.right-bottom {
+    position: relative;
+    padding-right: 25px;  
+    float: right;
+    margin: 0;
+    color: white;
+    padding-top: 15px;
+    }
+
+.left-bottom, .left-bottom2 {
+    position: relative;
+    float: left;
+    margin: 0;
+    color: white;
+    padding-top: 15px;
+    
+    }
+
+.left-bottom {
+    padding-left: 15px;
+
+    }
+
+    .left-bottom2 {
+        padding-left: 35px;
+    
+        }
+    
+
+
+
+/* Portrait and Landscape Smartphones */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .flooble {
+        font-size: 45px;
+        color: white;
+
+    } 
+
+    #search {
+        display: fixed;    
+        position: relative;
+        width: 80%;
+        border-radius: 15px;
+        border: 1px #000 solid;
+        padding: 15px 5px 5px 25px;
+        margin-top: 35px;
+        background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-color: #fff;
+        box-shadow: none;
+        -webkit-appearance: none;
+        
+        }
+        
+        .buttons, #button1, #button2 {
+            border: none;
+            color: rgb(27, 43, 51);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            
+        }
+        
+        
+}
+
+/* Portrait and Landscape iPad/Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+    .flooble {
+        font-size: 90px;
+        color: white;
+
+    } 
+
+    .box {
+        width: 100%;
+        text-align: center;
+        padding-top: 500px ;
+    }
+
+    #search {
+        display: fixed;    
+        position: relative;
+        width: 65%;
+        border-radius: 15px;
+        border: 1px #000 solid;
+        padding: 15px 5px 5px 25px;
+        margin-top: 35px;
+        background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-color: #fff;
+        box-shadow: none;
+        -webkit-appearance: none;
+        
+        }
+
+        .buttons, #button1, #button2 {
+            border: none;
+            color: rgb(27, 43, 51);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+            
+        }
+}
